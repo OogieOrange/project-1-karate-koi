@@ -175,6 +175,13 @@ Gallery
 <img src="assets/readme-images/about-page-3.jpg" alt="Wireframe of middle of home page.">
 <img src="assets/readme-images/about-page-4.jpg" alt="Wireframe of bottom of about page.">
 
+<br>
+
+## Schedule page
+
+<img src="assets/readme-images/schedule-page-1.jpg" alt="Wireframe of top of home page.">
+<img src="assets/readme-images/schedule-page-2.jpg" alt="Wireframe of bottom of home page.">
+
 7. technology
 8. testing
    8.1 code validation
