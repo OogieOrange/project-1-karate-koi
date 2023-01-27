@@ -10,6 +10,7 @@ body {
     font-family: Quicksand, sans-serif;
     font-weight: 500;
     color: #071e22;
+    background-color: #f3f3f3;
  }
 
  /* headings and logo */
@@ -54,4 +55,34 @@ h1, h2 {
     border: 1px solid #1d7874;
     padding: 0 4px;
 }
- 
+
+/* landing image and covertext */
+
+#landing-container {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+
+    background-color: #071e22
+}
+
+
+#landing-image-container {
+    width: 520px;
+    padding: 20px;
+    border: 1px solid #f3f3f3;
+
+    top: 60px;
+    left: 140px;
+
+    position: absolute;
+}
+
+#landing-image {
+    height: 400px;
+
+    background: url(../images/landing-image-2.jpg) no-repeat center center;
+    background-size: 100%;
+}
