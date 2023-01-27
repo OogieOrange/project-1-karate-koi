@@ -132,7 +132,18 @@ Sign up page
 
 - The feature is intended to prepare the user for starting routines and welcome them through the text. While the form will allow. the user to sign up for training with the club. The user will be asked to provide their full name and email address. As well as what level they are on and if they are singning up for themselves or a child.
 
-4. future features
+<br>
+
+### Future Features
+
+<br>
+
+Gallery
+
+- The gallery will provide the user with a group of supporting images to how the training looks.
+
+- The gallery will be a valuable feature for the user as it will will provide them with an image of how the training is and what the training environment looks like.
+
 5. Typography and color scheme
 6. wireframes
 === 1-6 for planning and then write code ===
