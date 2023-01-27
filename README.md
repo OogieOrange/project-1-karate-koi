@@ -144,7 +144,16 @@ Gallery
 
 - The gallery will be a valuable feature for the user as it will will provide them with an image of how the training is and what the training environment looks like.
 
-5. Typography and color scheme
+---
+
+## 5. Typography and color scheme
+
+<br>
+
+- The Karate Koi website will feature a color scheme consisting of black pearl, elm and white smoke. For a clean look.
+
+- The selected typografy consists of Montserrat and Quicksand, with a backup of Sans-seif. The focus is a clean design and a clear readability.
+
 6. wireframes
 === 1-6 for planning and then write code ===
 7. technology
