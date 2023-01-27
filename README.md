@@ -182,6 +182,13 @@ Gallery
 <img src="assets/readme-images/schedule-page-1.jpg" alt="Wireframe of top of home page.">
 <img src="assets/readme-images/schedule-page-2.jpg" alt="Wireframe of bottom of home page.">
 
+<br>
+
+## Sign up page
+
+<img src="assets/readme-images/signup-page-1.jpg" alt="Wireframe of top of sign up page.">
+<img src="assets/readme-images/signup-page-2.jpg" alt="Wireframe of bottom of sign up page.">
+
 7. technology
 8. testing
    8.1 code validation
