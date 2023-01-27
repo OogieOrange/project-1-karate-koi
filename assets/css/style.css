@@ -69,8 +69,8 @@ h1, h2 {
 }
 
 #landing-image-container {
-    width: 520px;
-    height: 400px;
+    width: 560px;
+    height: 420px;
     padding: 20px;
     border: 1px solid #f3f3f3;
 
@@ -87,4 +87,21 @@ h1, h2 {
     background-size: 100%;
 }
 
-/* landing image */
+/* cover text */
+
+#landing-cover-text h2 {
+    font-size: 200%;
+    color: #f3f3f3;
+    width: 640px;
+    height: 40px;
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: #1d7874;
+
+    bottom: 160px;
+    right: 120px;
+
+    position: absolute;
+}
