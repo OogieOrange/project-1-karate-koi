@@ -26,5 +26,32 @@ h1, h2 {
     margin-left: 40px;
     font-size: 260%;
  }
- 
+
+ /* nav links */
+
+#page-nav {
+    font-size: 140%;
+    letter-spacing: 4px;
+}
+
+#page-nav, #logo {
+    line-height: 80px;
+}
+
+#page-nav li {
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+}
+
+#page-nav a {
+    text-decoration: none;
+    color: #07242a;
+}
+
+#page-nav a:hover {
+    color: #1d7874;
+    border: 1px solid #1d7874;
+    padding: 0 4px;
+}
  
