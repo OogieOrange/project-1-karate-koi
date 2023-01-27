@@ -154,8 +154,18 @@ Gallery
 
 - The selected typografy consists of Montserrat and Quicksand, with a backup of Sans-seif. The focus is a clean design and a clear readability.
 
-6. wireframes
-=== 1-6 for planning and then write code ===
+---
+
+## 6. Wireframes
+
+<br>
+
+### Home page
+
+<img src="assets/readme-images/home-page-1.jpg" alt="Wireframe of top of home page.">
+<img src="assets/readme-images/home-page-2.jpg" alt="Wireframe of middle of home page.">
+<img src="assets/readme-images/home-page-3.jpg" alt="Wireframe of bottom of home page.">
+
 7. technology
 8. testing
    8.1 code validation
