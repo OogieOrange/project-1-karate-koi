@@ -39,8 +39,12 @@ h1, h2 {
     line-height: 80px;
 }
 
-#page-nav li {
+#page-nav ul {
     float: right;
+}
+
+#page-nav li {
+    float: left;
     list-style: none;
     margin-right: 40px;
 }
