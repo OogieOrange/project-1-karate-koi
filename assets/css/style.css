@@ -109,3 +109,50 @@ h1, h2 {
 
     position: absolute;
 }
+
+/* why karate section */
+
+#why-section {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+
+    background-color: #1d7874;
+}
+
+#why-left {
+    width: 50%;
+    float: left;
+}
+
+#why-right {
+    width: 50%;
+    height: 600px;
+    float: right;
+}
+
+#why-left-text {
+    width: 60%;
+    text-align: center;
+    float: right;
+    margin: 60px 10% 0 0;
+    line-height: 20px;
+}
+
+#why-left-text p {
+    margin-bottom: 20px;
+}
+
+#why-image {
+    line-height: 0;
+    column-count: 1;
+    /* text-align: center; */
+    padding: 20px 0 20px 10%;
+}
+
+#why-image > img {
+    width: 420px;
+}
+
