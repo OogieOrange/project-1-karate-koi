@@ -168,7 +168,7 @@ h1, h2 {
 
 .map {
     float: right;
-    width: 420px;
+    width: 60%;
     height: 400px;
     padding: 90px 10% 0 0;
 }
@@ -188,4 +188,32 @@ h1, h2 {
 
 #open-right-text p {
     margin-bottom: 20px;
+}
+
+/* footer */
+
+footer {
+    height: 160px;
+    background-color: #1d7874;
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 0 5%;
+    color: #f3f3f3;
+}
+
+footer a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.footer-top {
+    font-size: 120%;
+}
+
+.footer-bottom {
+    font-size: 180%;
 }
