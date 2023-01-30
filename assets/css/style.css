@@ -214,6 +214,10 @@ footer a {
     font-size: 120%;
 }
 
+.footer-top a:hover {
+    font-size: 105%;
+}
+
 .footer-bottom {
     font-size: 180%;
 }
