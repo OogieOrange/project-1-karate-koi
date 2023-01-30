@@ -66,6 +66,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    color: #f3f3f3;
 
     position: relative;
 
@@ -112,7 +113,7 @@ h1, h2 {
 
 /* why karate section */
 
-#why-section {
+.section-white {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -179,7 +180,6 @@ h1, h2 {
     float: left;
     margin: 100px 0 0 10%;
     line-height: 20px;
-    color: #f3f3f3;
 }
 
 #open-right-text h2 {
@@ -216,4 +216,24 @@ footer a {
 
 .footer-bottom {
     font-size: 180%;
+}
+
+/* about hero image */
+
+/* about cover text */
+
+/* about karate */
+
+.center {
+    text-align: center;
+}
+
+#about-karate {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+#about-karate p {
+    margin-bottom: 20px;
 }
