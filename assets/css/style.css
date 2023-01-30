@@ -218,7 +218,7 @@ footer a {
     font-size: 180%;
 }
 
-/* about hero image */
+/* about hero image and cover text*/
 
 #about-landing-image {
     background: url(../images/about-landing-image.jpg) center center / cover fixed;
@@ -240,8 +240,6 @@ footer a {
 
     background-color: #1d7874;
 }
-   
-/* about cover text */
 
 /* about karate */
 
@@ -249,12 +247,28 @@ footer a {
     text-align: center;
 }
 
-#about-karate {
+.about-text {
     width: 60%;
     margin: 0 auto;
     padding-top: 90px;
 }
 
-#about-karate p {
+.about-text p {
     margin-bottom: 20px;
+}
+
+/* video section */
+
+#video-container {
+    width: 80%;
+    height: 460px;
+    margin: 0 auto;
+}
+
+#video {
+    width: 700px;
+    height: 80%;
+    padding-top: 110px;
+    display: block;
+    margin: 0 auto;
 }
