@@ -220,6 +220,27 @@ footer a {
 
 /* about hero image */
 
+#about-landing-image {
+    background: url(../images/about-landing-image.jpg) center center / cover fixed;
+}
+
+#about-landing-image div {
+    padding-top: 260px;
+}
+
+#about-landing-image h2 {
+    font-size: 200%;
+    color: #f3f3f3;
+    width: 520px;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto;
+
+    padding: 20px;
+
+    background-color: #1d7874;
+}
+   
 /* about cover text */
 
 /* about karate */
