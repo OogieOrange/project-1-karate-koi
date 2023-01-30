@@ -160,7 +160,13 @@ Gallery
 
 [View wireframe for desktop and mobile sceen size](/wireframe.md)
 
-7. technology
+---
+
+## 7. technology
+
+<br>
+
+
 8. testing
    8.1 code validation
    8.2 test cases (user story based with screenshots)
