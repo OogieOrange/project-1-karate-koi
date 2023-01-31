@@ -404,3 +404,26 @@ footer a {
     border: 1px solid #f3f3f3;
 }
 
+/* welcome page */
+
+#welcome-container {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 48px;
+    background-color: rgba(29, 120, 116, 0.7);
+    border-radius: 4px;
+}
+
+#welcome-container h2 {
+    color: #f3f3f3;
+    padding-top: 56px;
+    /* padding-bottom: 10px; */
+}
+
+#welcome-container p {
+    width: 80%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
