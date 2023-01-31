@@ -33,6 +33,40 @@
         </nav>
     </header>
 
+    <section class="section-container">
+        <div id="container-border" class="center">
+            <div id="form-container">
+                <h2>Join us!</h2>
+                <form method="get" action="#">
+                    <input type="text" class="input" name="fname" placeholder="First Name" required>
+                    <input type="text" class="input" name="lname" placeholder="Last Name" required>
+                    <input type="email" class="input" name="email_address" placeholder="Email Address" required>
+
+                    <div class="radio">
+                        <p>Who are you applying for?</p>
+                        <label for="child">A Child</label>
+                        <input id="child" type="radio" name="who_applying" required>
+                        <label for="myself">Myself</label>
+                        <input id="myself" type="radio" name="who_applying">
+                    </div>
+
+                    <div class="radio">
+                        <p>What level do you train at?</p>
+                        <label for="beginner">Beginner</label>
+                        <input id="beginner" type="radio" name="training_level" required>
+                        <label for="intermediate">Intermediate</label>
+                        <input id="intermediate" type="radio" name="training_level">
+                        <label for="advanced">Advanced</label>
+                        <input id="advansed" type="radio" name="training_level">
+                    </div>
+
+                    <input id="submit" class="button" type="submit" value="Join!">
+                    <input id="reset" class="button" type="reset">
+                </form>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <ul class="footer-top">
             <li>

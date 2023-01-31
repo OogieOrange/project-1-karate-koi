@@ -323,3 +323,84 @@ footer a {
     color: #f3f3f3;
 }
 
+/* form */
+
+#container-border {
+    width: 600px;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    border: 1px solid #f3f3f3;
+    border-radius: 4px;
+    color: rgba( 243, 243, 243, 0.8);
+}
+
+#form-container {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 48px;
+    background-color: rgba(29, 120, 116, 0.7);
+    border-radius: 4px;
+}
+
+#form-container h2 {
+    color: #f3f3f3;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#form-container p {
+    text-transform: uppercase;
+    color: #f3f3f3;
+    margin-top: 10px;
+}
+
+.input {
+    background-color: rgba( 7, 30, 34, 0.7);
+    color: #f3f3f3;
+    padding: 4px;
+    width: 80%;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.input:hover {
+    background-color: rgba( 7, 30, 34, 0.9);
+    border: 1px solid #f3f3f3;
+}
+
+.radio input {
+    margin: 10px 20px 10px 0;
+}
+
+#submit {
+    background-color: rgba( 7, 30, 34, 0.6);
+    color: #f3f3f3;
+}
+
+#submit:hover {
+    background-color: #07242a;
+}
+
+#reset {
+    background-color: rgba( 243, 243, 243, 0.5);
+    color: #07242a;
+}
+
+#reset:hover {
+    background-color: rgba( 243, 243, 243, 0.8);
+}
+
+.button {
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.button:hover {
+    border: 1px solid #f3f3f3;
+}
+
