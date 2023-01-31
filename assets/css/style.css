@@ -4,38 +4,40 @@
     margin: 0;
     padding: 0;
     border: none;
- } 
+}
 
 body {
     font-family: Quicksand, sans-serif;
     font-weight: 500;
     color: #071e22;
     background-color: #f3f3f3;
- }
+}
 
- /* headings and logo */
+/* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     color: #07242a;
     letter-spacing: 4px;
- }
+}
 
 #logo {
     float: left;
     margin-left: 40px;
     font-size: 260%;
- }
+}
 
- /* nav links */
+/* nav links */
 
 #page-nav {
     font-size: 140%;
     letter-spacing: 4px;
 }
 
-#page-nav, #logo {
+#page-nav,
+#logo {
     line-height: 80px;
 }
 
@@ -62,8 +64,8 @@ h1, h2 {
 
 /* landing image */
 
-.section-container {
-    height: 600px;
+.section-home-landing {
+    height: 800px;
     width: 100%;
     overflow: hidden;
     color: #f3f3f3;
@@ -74,12 +76,12 @@ h1, h2 {
 }
 
 #landing-image-container {
-    width: 560px;
-    height: 420px;
+    width: 800px;
+    height: 600px;
     padding: 20px;
     border: 1px solid #f3f3f3;
 
-    top: 60px;
+    top: 10%;
     left: 10%;
 
     position: absolute;
@@ -94,27 +96,30 @@ h1, h2 {
 
 /* cover text */
 
-#landing-cover-text h2 {
-    font-size: 200%;
-    color: #f3f3f3;
-    width: 640px;
-    height: 40px;
-    text-align: center;
-
-    padding: 20px;
+#landing-cover-text {
+    width: 780px;
+    height: 100px;
 
     background-color: #1d7874;
 
-    bottom: 160px;
-    right: 120px;
+    bottom: 30%;
+    right: 10%;
 
     position: absolute;
+}
+
+#landing-cover-text h2 {
+    font-size: 220%;
+    color: #f3f3f3;
+    text-align: center;
+    line-height: 60px;
+    padding: 20px;
 }
 
 /* why karate section */
 
 .section-white {
-    height: 600px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
 
@@ -150,11 +155,22 @@ h1, h2 {
     padding: 20px 0 20px 10%;
 }
 
-#why-image > img {
+#why-image>img {
     width: 420px;
 }
 
 /* open house section */
+
+.section-container {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    color: #f3f3f3;
+
+    position: relative;
+
+    background-color: #071e22
+}
 
 #open-left {
     width: 50%;
@@ -326,7 +342,7 @@ footer a {
 /* form */
 
 .form-section-container {
-    height: 600px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     color: #f3f3f3;
@@ -343,7 +359,7 @@ footer a {
     margin-top: 60px;
     border: 1px solid #f3f3f3;
     border-radius: 4px;
-    color: rgba( 243, 243, 243, 0.8);
+    color: rgba(243, 243, 243, 0.8);
 }
 
 #form-container {
@@ -368,7 +384,7 @@ footer a {
 }
 
 .input {
-    background-color: rgba( 7, 30, 34, 0.7);
+    background-color: rgba(7, 30, 34, 0.7);
     color: #f3f3f3;
     padding: 4px;
     width: 80%;
@@ -377,7 +393,7 @@ footer a {
 }
 
 .input:hover {
-    background-color: rgba( 7, 30, 34, 0.9);
+    background-color: rgba(7, 30, 34, 0.9);
     border: 1px solid #f3f3f3;
 }
 
@@ -386,7 +402,7 @@ footer a {
 }
 
 #submit {
-    background-color: rgba( 7, 30, 34, 0.6);
+    background-color: rgba(7, 30, 34, 0.6);
     color: #f3f3f3;
 }
 
@@ -395,12 +411,12 @@ footer a {
 }
 
 #reset {
-    background-color: rgba( 243, 243, 243, 0.5);
+    background-color: rgba(243, 243, 243, 0.5);
     color: #07242a;
 }
 
 #reset:hover {
-    background-color: rgba( 243, 243, 243, 0.8);
+    background-color: rgba(243, 243, 243, 0.8);
 }
 
 .button {
@@ -436,4 +452,255 @@ footer a {
     width: 80%;
     padding-top: 20px;
     margin: 0 auto;
+}
+
+/* media queries */
+
+/* for laptops */
+@media screen and (max-width: 1500px) {
+
+    #landing-cover-text {
+        width: 640px;
+        height: 80px;
+
+        bottom: 30%;
+        right: 10%;
+    }
+
+    #landing-cover-text h2 {
+        font-size: 200%;
+        line-height: 80px;
+        padding: 0;
+    }
+}
+
+/* for large sized tablets */
+@media screen and (max-width: 1200px) {
+
+    .section-container {
+        height: 700px;
+        width: 100%;
+    }
+
+    .section-white {
+        height: 700px;
+        width: 100%;
+    }
+
+    .section-home-landing {
+        height: 700px;
+        width: 100%;
+    }
+
+    /* home landing image */
+    #landing-image-container {
+        width: 50%;
+        height: 55%;
+
+        top: 15%;
+        left: 10%;
+    }
+
+    #landing-image {
+        height: 100%;
+
+        background: url(../images/landing-image.jpg) no-repeat center top;
+        background-size: 100%;
+    }
+
+    /* form */
+    .form-section-container {
+        height: 700px;
+        width: 100%;
+    }
+
+    /*  */
+}
+
+/* for large and medium tablets */
+@media screen and (max-width: 1050px) {
+
+    .section-container {
+        height: 900px;
+        width: 100%;
+    }
+
+    .section-white {
+        height: 900px;
+        width: 100%;
+    }
+
+    /* home landing image and cover text */
+    #landing-image-container {
+        width: 60%;
+        height: 50%;
+
+        top: 10%;
+        left: 17%;
+    }
+
+    #landing-cover-text {
+        width: 68%;
+
+        bottom: 20%;
+        right: 17%;
+    }
+
+    #landing-cover-text h2 {
+        font-size: 160%;
+    }
+}
+
+/* for medium sized tablets */
+@media screen and (max-width: 950px) {
+
+    /* nav */
+    #page-nav {
+        font-size: 140%;
+    }
+
+    #page-nav ul {
+        clear: both;
+        float: left;
+        margin-left: 30px;
+        line-height: 60px;
+    }
+
+    /* cover text */
+    #landing-cover-text {
+        bottom: 20%;
+        right: 17%;
+    }
+
+    #landing-cover-text h2 {
+        font-size: 140%;
+    }
+}
+
+/* for smaler tablets */
+@media screen and (max-width: 800px) {
+
+    /* home landing image and cover text */
+    #landing-image-container {
+        width: 100%;
+        height: 60%;
+        padding: 20px 0;
+        margin-top: 40px;
+
+        border: 0;
+        border-bottom: 1px solid #f3f3f3;
+        border-top: 1px solid #f3f3f3;
+
+        top: 0;
+        left: 0;
+    }
+
+    #landing-cover-text {
+        width: 68%;
+
+        bottom: 10%;
+        right: 17%;
+    }
+
+    #landing-cover-text h2 {
+        font-size: 140%;
+    }
+
+}
+
+/* for mini tablets */
+@media screen and (max-width: 700px) {
+
+    #landing-cover-text h2 {
+        font-size: 110%;
+    }
+
+}
+
+/* for large mobiles */
+@media screen and (max-width: 610px) {
+    .section-home-landing {
+        height: 600px;
+        width: 100%;
+    }
+
+    /* nav */
+    #page-nav {
+        font-size: 120%;
+        letter-spacing: 2px;
+    }
+
+    /* cover text */
+
+    #landing-cover-text {
+        width: 80%;
+
+        bottom: 8%;
+        right: 10%;
+    }
+
+    #landing-cover-text h2 {
+        font-size: 110%;
+    }
+}
+
+/* for medium mobiles */
+@media screen and (max-width: 511px) {
+
+    /* logo */
+    #logo {
+        font-size: 240%;
+    }
+
+    /* nav */
+    #page-nav {
+        font-size: 110%;
+    }
+
+    #page-nav li {
+        margin-right: 20px;
+    }
+
+    /* landing image and cover text */
+    #landing-image-container {
+        height: 55%;
+    }
+
+    #landing-cover-text {
+        width: 100%;
+
+        bottom: 10%;
+        right: 0;
+    }
+
+    #landing-cover-text h2 {
+        font-size: 142%;
+    }
+}
+
+/* for small mobiles */
+@media screen and (max-width: 480px) {
+
+    /* nav */
+    #page-nav {
+        font-size: 100%;
+    }
+
+    #page-nav li {
+        margin-right: 15px;
+    }
+
+    /* landing image and cover text */
+    #landing-image-container {
+        height: 46%;
+    }
+
+    #landing-cover-text {
+        height: 120px;
+    }
+
+    #landing-cover-text h2 {
+        font-size: 142%;
+        line-height: 60px;
+    }
 }
