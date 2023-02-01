@@ -183,7 +183,6 @@ h2 {
 
 #open-right {
     width: 50%;
-    height: 600px;
     float: right;
 }
 
@@ -191,14 +190,14 @@ h2 {
     float: right;
     width: 60%;
     height: 400px;
-    padding: 90px 10% 0 0;
+    padding: 20% 10% 0 0;
 }
 
 #open-right-text {
     width: 60%;
     text-align: center;
     float: left;
-    margin: 100px 0 0 10%;
+    margin: 24% 0 0 10%;
     line-height: 20px;
 }
 
@@ -462,6 +461,9 @@ footer a {
 
 /* for laptops */
 @media screen and (max-width: 1500px) {
+    .section-container {
+        height: 1400px;
+    }
 
     .section-white {
         height: 1400px;
@@ -489,7 +491,6 @@ footer a {
 
     #why-left-text {
         text-align: center;
-        float: right;
         clear: both;
         margin: 10% 20% 0 20%;
         line-height: 28px;
@@ -514,20 +515,35 @@ footer a {
     #why-image>img {
         width: 520px;
     }
+
+    /* open house section */
+    #open-left {
+        width: 100%;
+    }
+
+    #open-right {
+        width: 100%;
+    }
+
+    #open-right-text {
+        text-align: center;
+        clear: both;
+        margin: 10% 20% 0 20%;
+        line-height: 28px;
+    }
+
+    .map {
+        text-align: center;
+        clear: both;
+        width: 60%;
+        height: 560px;
+        padding: 0;
+        margin: 8% 20%;
+    }
 }
 
 /* for large sized tablets */
 @media screen and (max-width: 1200px) {
-
-    .section-container {
-        height: 700px;
-        width: 100%;
-    }
-
-    .section-white {
-        height: 1400px;
-    }
-
     .section-home-landing {
         height: 700px;
         width: 100%;
@@ -563,11 +579,6 @@ footer a {
 
 /* for large and medium tablets */
 @media screen and (max-width: 1050px) {
-
-    .section-container {
-        height: 900px;
-        width: 100%;
-    }
 
     /* home landing image and cover text */
     #landing-image-container {
@@ -631,6 +642,18 @@ footer a {
     #why-image>img {
         width: 460px;
     }
+
+    /* open house section */
+    #open-right-text {
+        margin: 18% 20% 0 20%;
+        line-height: 26px;
+    }
+
+    .map {
+        width: 80%;
+        height: 560px;
+        margin: 10%;
+    }
 }
 
 /* for smaler tablets */
@@ -680,6 +703,18 @@ footer a {
     #why-image {
         margin: 4% 10%;
     }
+
+    /* open house section */
+    #open-right-text {
+        width: 80%;
+        margin: 18% 10% 0 10%;
+        line-height: 26px;
+    }
+
+    .map {
+        width: 100%;
+        margin: 16% 0;
+    }
 }
 
 /* for large mobiles */
@@ -713,11 +748,6 @@ footer a {
     }
 
     /* why section */
-    #why-left-text {
-        width: 80%;
-        margin: 10% 10% 0 10%;
-    }
-
     #why-image {
         margin: 4% 5%;
     }
@@ -760,6 +790,12 @@ footer a {
     #why-image>img {
         width: 420px;
     }
+
+    /* open house section */
+    .map {
+        height: 520px;
+        margin: 16% 0;
+    }
 }
 
 /* for small mobiles */
@@ -797,5 +833,16 @@ footer a {
 
     #why-image>img {
         width: 100%;
+    }
+
+    /* footer */
+    /* footer {
+        height: 180px;
+        background-color: #1d7874;
+        text-align: center;
+    } */
+
+    footer li {
+        margin-top: 15px;
     }
 }
