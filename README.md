@@ -229,7 +229,7 @@ Gallery
 - [Balsamiq](https://balsamiq.com/), <br> Was used to create wireframes.
 - Git, <br> Was used to commit through Gitpod repository and push code to GitHub.
 - [GitHub](https://github.com/), <br> Was used to facilitate my project and to deploy it.
-- W3C Validator and W3C jigsaw CSS validator, <br> Was used to validate the code.
+- [W3C Validator](https://validator.w3.org/#validate_by_uri) and [W3C jigsaw CSS validator](https://jigsaw.w3.org/css-validator/), <br> Was used to validate the code.
 
 ---
 
