@@ -68,7 +68,7 @@ h2 {
 
 /* landing image */
 
-.section-home-landing {
+.section-landing {
     height: 800px;
     width: 100%;
     overflow: hidden;
@@ -100,7 +100,7 @@ h2 {
 
 /* cover text */
 
-#landing-cover-text {
+.landing-cover-text {
     width: 780px;
     height: 100px;
 
@@ -112,7 +112,7 @@ h2 {
     position: absolute;
 }
 
-#landing-cover-text h2 {
+.landing-cover-text h2 {
     font-size: 220%;
     color: #f3f3f3;
     text-align: center;
@@ -247,21 +247,23 @@ footer a {
     background: url(../images/about-landing-image.jpg) center center / cover fixed;
 }
 
-#about-landing-image div {
-    padding-top: 260px;
-}
-
-#about-landing-image h2 {
-    font-size: 200%;
-    color: #f3f3f3;
-    width: 520px;
-    height: 40px;
+.about-cover-text {
+    width: 600px;
+    height: 120px;
     text-align: center;
-    margin: 0 auto;
+    font-size: 220%;
+    line-height: 60px;
+    font-family: Montserrat, sans-serif;
 
     padding: 20px;
+    margin: 0 auto;
+    margin-top: 26%;
 
     background-color: #1d7874;
+}
+
+.about-cover-text h2 {
+    color: #f3f3f3;
 }
 
 /* about text*/
@@ -470,7 +472,7 @@ footer a {
     }
 
     /* home cover text */
-    #landing-cover-text {
+    .landing-cover-text {
         width: 640px;
         height: 80px;
 
@@ -478,7 +480,7 @@ footer a {
         right: 10%;
     }
 
-    #landing-cover-text h2 {
+    .landing-cover-text h2 {
         font-size: 200%;
         line-height: 80px;
         padding: 0;
@@ -544,7 +546,7 @@ footer a {
 
 /* for large sized tablets */
 @media screen and (max-width: 1200px) {
-    .section-home-landing {
+    .section-landing {
         height: 700px;
         width: 100%;
     }
@@ -589,14 +591,14 @@ footer a {
         left: 17%;
     }
 
-    #landing-cover-text {
+    .landing-cover-text {
         width: 68%;
 
         bottom: 20%;
         right: 17%;
     }
 
-    #landing-cover-text h2 {
+    .landing-cover-text h2 {
         font-size: 160%;
     }
 
@@ -625,12 +627,12 @@ footer a {
     }
 
     /* home cover text */
-    #landing-cover-text {
+    .landing-cover-text {
         bottom: 20%;
         right: 17%;
     }
 
-    #landing-cover-text h2 {
+    .landing-cover-text h2 {
         font-size: 140%;
     }
 
@@ -674,14 +676,14 @@ footer a {
         left: 0;
     }
 
-    #landing-cover-text {
+    .landing-cover-text {
         width: 68%;
 
         bottom: 10%;
         right: 17%;
     }
 
-    #landing-cover-text h2 {
+    .landing-cover-text h2 {
         font-size: 140%;
     }
 
@@ -690,7 +692,7 @@ footer a {
 /* for mini tablets */
 @media screen and (max-width: 700px) {
 
-    #landing-cover-text h2 {
+    .landing-cover-text h2 {
         font-size: 110%;
     }
 
@@ -715,6 +717,20 @@ footer a {
         width: 100%;
         margin: 16% 0;
     }
+
+    /* about coover text */
+    .about-cover-text {
+        width: 100%;
+        font-size: 220%;
+        line-height: 60px;
+        font-family: Montserrat, sans-serif;
+
+        padding: 20px 5%;
+        margin: 0 auto;
+        margin-top: 38%;
+
+        background-color: #1d7874;
+    }
 }
 
 /* for large mobiles */
@@ -723,7 +739,7 @@ footer a {
         font-size: 100%;
     }
 
-    .section-home-landing {
+    .section-landing {
         height: 600px;
         width: 100%;
     }
@@ -736,14 +752,14 @@ footer a {
 
     /* home cover text */
 
-    #landing-cover-text {
+    .landing-cover-text {
         width: 80%;
 
         bottom: 8%;
         right: 10%;
     }
 
-    #landing-cover-text h2 {
+    .landing-cover-text h2 {
         font-size: 110%;
     }
 
@@ -775,14 +791,14 @@ footer a {
         height: 55%;
     }
 
-    #landing-cover-text {
+    .landing-cover-text {
         width: 100%;
 
         bottom: 10%;
         right: 0;
     }
 
-    #landing-cover-text h2 {
+    .landing-cover-text h2 {
         font-size: 142%;
     }
 
@@ -817,11 +833,11 @@ footer a {
         height: 46%;
     }
 
-    #landing-cover-text {
+    .landing-cover-text {
         height: 120px;
     }
 
-    #landing-cover-text h2 {
+    .landing-cover-text h2 {
         font-size: 142%;
         line-height: 60px;
     }
@@ -836,12 +852,6 @@ footer a {
     }
 
     /* footer */
-    /* footer {
-        height: 180px;
-        background-color: #1d7874;
-        text-align: center;
-    } */
-
     footer li {
         margin-top: 15px;
     }
