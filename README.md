@@ -152,7 +152,7 @@ Gallery
 
 <br>
 
-- The Karate Koi website will feature a color scheme consisting of black pearl, elm and white smoke. For a clean look.
+- The Karate Koi website will feature a color scheme consisting of black pearl, elm and white smoke. For a clean, calm and simple look.
 
 - The selected typografy consists of Montserrat and Quicksand, with a backup of Sans-seif. The focus is a clean design and a clear readability.
 
