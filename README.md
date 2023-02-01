@@ -272,7 +272,24 @@ W3C jigsaw CSS Validator results,
 
 <img src="assets/readme-images/css-validation.jpg" alt="Image of w3c jigsaw css validator results.">
 
+<br>
+
+Lighthouse results for mobile and desktop,
+
+<br>
+
+Mobile,<br>
+<img src="assets/readme-images/mobile-lighthouse.jpg" alt="Image of mobile lighthouse results.">
+
+<br>
+
+Desktop,<br>
+<img src="assets/readme-images/desktop-lighthouse.jpg" alt="Image of desktop lighthouse results.">
+
+<br>
+
 ---
+
 
 ## 10. Fixed bugs
 
