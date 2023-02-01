@@ -297,8 +297,18 @@ The deployment was made through GitHub pages and the process was as followes,
 
 <br>
 
+[LIVE SITE HERE](https://oogieorange.github.io/project-1-karate-koi/)
+
+<br>
+
 <img src="assets/readme-images/pages.jpg" alt="Image of pages section on GitHub">
 
 ---
 
 ## 12. Credits
+
+<br>
+
+- [W3 Schools](https://www.w3schools.com/) For answering any query I had along the way
+- The 'Love Running' project that helped me with footer and some compositional ideés
+- [ActiveCambrige](https://www.youtube.com/@ActiveCambridge) For their video '5 Things You Need to Know About Karate'
