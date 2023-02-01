@@ -222,6 +222,7 @@ Gallery
 - Am I Responsive, <br> Was used for checking responsiveness.
 - Git, <br> Was used to commit and push my code to GitHub.
 - GitHub, <br> Was used to facilitate my project and to deploy it.
+- W3C Validator and W3C jigsaw CSS validator, <br> Was used to validate the code.
 
 ---
 
@@ -243,13 +244,32 @@ On mobile,
 - Safari
 - chrome
 
-  ### 8.1 Code validation
+### 8.1 Code validation
 
-  ### 8.2 Fixed bugs
+<br>
 
-  - 
+Code validation is confimed through W3C Validator and W3C jigsaw CSS validator.
 
-  ### 8.3 Remaining bugs
+<br>
+
+W3C Validator results,
+
+<br>
+
+<img src="assets/readme-images/html-validation.jpg" alt="Image of w3c validator results.">
+
+<br>
+
+W3C jigsaw CSS Validator results,
+
+<br>
+
+<img src="assets/readme-images/css-validation.jpg" alt="Image of w3c jigsaw css validator results.">
+
+### 8.2 Fixed bugs
+
+- The 'Sing up' and 'Welcome' pages didn't want to center on screens with 510px width or smaller. I fixed this by adjusting padding value in a media querie. 
+
 
 9. Deployment
    9.1 via gitpod
