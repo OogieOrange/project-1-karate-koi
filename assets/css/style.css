@@ -273,7 +273,7 @@ footer a {
 }
 
 .about-text {
-    width: 60%;
+    width: 48%;
     margin: 0 auto;
     padding-top: 90px;
 }
@@ -465,7 +465,8 @@ footer a {
         height: 1400px;
     }
 
-    .section-height {
+    .section-height,
+    .video-section-height {
         height: 800px;
     }
 
@@ -586,6 +587,11 @@ footer a {
     /* video section */
     #video {
         height: 580px;
+    }
+
+    /* about text*/
+    .about-text {
+        width: 60%;
     }
 }
 
@@ -717,11 +723,16 @@ footer a {
         height: 480px;
         margin: 20% 0;
     }
+
+    /* about text*/
+    .about-text {
+        width: 80%;
+    }
 }
 
 /* for mini tablets */
 @media screen and (max-width: 700px) {
-    .section-height {
+    .video-section-height {
         height: 600px;
     }
 
@@ -751,6 +762,11 @@ footer a {
         margin: 16% 0;
     }
 
+    /* video section */
+    #video {
+        margin: 8% 0;
+    }
+
     /* about coover text */
     .about-cover-text {
         width: 100%;
@@ -761,9 +777,9 @@ footer a {
         padding: 18px 2%;
     }
 
-    /* video section */
-    #video {
-        margin: 10% 0;
+    /* about text */
+    .about-text {
+        padding-top: 40px;
     }
 }
 
@@ -899,6 +915,16 @@ footer a {
     /* video section */
     #video {
         height: 340px;
-        margin: 30% 0;
+        margin: 25% 0;
+    }
+
+    /* about text */
+    .about-text {
+        padding-top: 10px;
+        width: 90%;
+    }
+
+    .about-text p {
+        margin-bottom: 0;
     }
 }
