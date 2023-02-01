@@ -222,12 +222,13 @@ Gallery
 
 - HTML5
 - CSS3
-- Google Fonts, <br> Was used to import the 'Montserrat' and 'Quicksand' font familys into the connected css stylesheet.
-- Font Awesome, <br> Was used to import icons representing socials to the footer.
-- Pexels, <br> Was used to source images for the project.
-- Am I Responsive, <br> Was used for checking responsiveness.
-- Git, <br> Was used to commit and push my code to GitHub.
-- GitHub, <br> Was used to facilitate my project and to deploy it.
+- [Google Fonts](https://fonts.google.com/), <br> Was used to import the 'Montserrat' and 'Quicksand' font familys into the connected css stylesheet.
+- [Font Awesome](https://fontawesome.com/), <br> Was used to import icons representing socials to the footer.
+- [Pexels](https://www.pexels.com/), <br> Was used to source images for the project.
+- [Am I Responsive](https://ui.dev/amiresponsive), <br> Was used for checking responsiveness.
+- [Balsamiq](https://balsamiq.com/), <br> Was used to create wireframes.
+- Git, <br> Was used to commit through Gitpod repository and push code to GitHub.
+- [GitHub](https://github.com/), <br> Was used to facilitate my project and to deploy it.
 - W3C Validator and W3C jigsaw CSS validator, <br> Was used to validate the code.
 
 ---
@@ -310,5 +311,5 @@ The deployment was made through GitHub pages and the process was as followes,
 <br>
 
 - [W3 Schools](https://www.w3schools.com/) For answering any query I had along the way
-- The 'Love Running' project that helped me with footer and some compositional ideés
+- The 'Love Running' project that helped me with the footer, meta keywords and some compositional ideés
 - [ActiveCambrige](https://www.youtube.com/@ActiveCambridge) For their video '5 Things You Need to Know About Karate'
