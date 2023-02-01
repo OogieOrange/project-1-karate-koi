@@ -166,9 +166,9 @@ Schedule page
 
 Sign up
 
-- This page will include a short text and a sign up form.
+- This page will consist of a sign up form.
 
-- The feature is intended to prepare the user for starting routines and welcome them through the text. While the form will allow. the user to sign up for training with the club. The user will be asked to provide their full name and email address. As well as what level they are on and if they are singning up for themselves or a child.
+- The form will allow the user to sign up for training with the club. The user will be asked to provide their full name and email address. As well as what level they are on and if they are singning up for themselves or a child.
 
 <br>
 
