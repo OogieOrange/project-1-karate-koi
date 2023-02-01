@@ -176,12 +176,12 @@ h2 {
     background-color: #071e22
 }
 
-#open-left {
+.float-left {
     width: 50%;
     float: left;
 }
 
-#open-right {
+.float-right {
     width: 50%;
     float: right;
 }
@@ -294,21 +294,12 @@ footer a {
 
 /* schedule section */
 
-#schedule-left {
-    width: 50%;
-    float: left;
-}
-
-#schedule-right {
-    width: 50%;
-    float: right;
-}
-
 #dojo-image-container {
     width: 80%;
     height: 600px;
     float: right;
     margin-right: 10%;
+    margin-top: 4%;
 }
 
 #dojo-image {
@@ -321,6 +312,7 @@ footer a {
 #times-container {
     float: left;
     margin-left: 5%;
+    margin-top: 4%;
     padding-top: 40px;
 }
 
@@ -518,11 +510,11 @@ footer a {
     }
 
     /* open house section */
-    #open-left {
+    .float-left {
         width: 100%;
     }
 
-    #open-right {
+    .float-right {
         width: 100%;
     }
 
@@ -547,6 +539,18 @@ footer a {
         width: 80%;
         height: 600px;
         margin: 8% 10%;
+    }
+
+    /* schedule section */
+
+    #dojo-image-container {
+        clear: both;
+        margin: 4% 10% 0 10%;
+    }
+
+    #times-container {
+        margin: 4% 30%;
+        padding-top: 40px;
     }
 }
 
@@ -593,6 +597,11 @@ footer a {
     .about-text {
         width: 60%;
     }
+
+    /* schedule section */
+    #times-container {
+        margin: 4% 25%;
+    }
 }
 
 /* for large and medium tablets */
@@ -628,6 +637,11 @@ footer a {
         width: 90%;
         height: 580px;
         margin: 12% 5%;
+    }
+
+    /* schedule section */
+    #times-container {
+        margin: 4% 22%;
     }
 }
 
@@ -686,6 +700,11 @@ footer a {
         height: 480px;
         margin: 16% 10%;
     }
+
+    /* schedule section */
+    #times-container {
+        margin: 4% 18%;
+    }
 }
 
 /* for smaler tablets */
@@ -727,6 +746,11 @@ footer a {
     /* about text*/
     .about-text {
         width: 80%;
+    }
+
+    /* schedule section */
+    #times-container {
+        margin: 4% 16%;
     }
 }
 
@@ -781,6 +805,21 @@ footer a {
     .about-text {
         padding-top: 40px;
     }
+
+    /* schedule section */
+    #dojo-image-container {
+        height: 500px;
+        width: 100%;
+        margin: 4% 0 0 0;
+    }
+
+    #dojo-image {
+        background-size: 120%;
+    }
+
+    #times-container {
+        margin: 2% 10%;
+    }
 }
 
 /* for large mobiles */
@@ -801,7 +840,6 @@ footer a {
     }
 
     /* home cover text */
-
     .landing-cover-text {
         width: 80%;
 
@@ -826,6 +864,11 @@ footer a {
     #video {
         height: 420px;
         margin: 16% 0;
+    }
+
+    /* schedule section */
+    #times-container {
+        margin: 4% 5%;
     }
 }
 
@@ -868,6 +911,15 @@ footer a {
         height: 520px;
         margin: 16% 0;
     }
+
+    /* schedule section */
+    #dojo-image-container {
+        margin: 20% 0 0 0;
+    }
+
+    #times-container {
+        margin: 20% 0;
+    }
 }
 
 /* for small mobiles */
@@ -886,11 +938,13 @@ footer a {
 
     /* landing image and cover text */
     #landing-image-container {
-        height: 46%;
+        height: 40%;
     }
 
     .landing-cover-text {
         height: 120px;
+
+        bottom: 15%;
     }
 
     .landing-cover-text h2 {
@@ -927,4 +981,42 @@ footer a {
     .about-text p {
         margin-bottom: 0;
     }
+
+    /* schedule section */
+    #dojo-image-container {
+        height: 400px;
+    }
+
+    #times-container {
+        font-size: 80%;
+        margin: 28% 0;
+    }
+}
+
+/* for extra small mobiles */
+@media screen and (max-width: 370px) {
+
+    /* logo */
+    #logo {
+        font-size: 220%;
+    }
+
+    /* nav */
+    #page-nav {
+        font-size: 120%;
+    }
+
+    #page-nav li {
+        margin: 0 16px;
+    }
+
+    /* schedule section */
+    #times-container th {
+        font-size: 70%
+    }
+
+    #times-container td {
+        padding: 40px 2px;
+    }
+
 }
