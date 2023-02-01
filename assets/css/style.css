@@ -13,6 +13,10 @@ body {
     background-color: #f3f3f3;
 }
 
+body p {
+    font-size: 120%;
+}
+
 /* headings and logo */
 
 h1,
@@ -141,8 +145,8 @@ h2 {
     width: 60%;
     text-align: center;
     float: right;
-    margin: 60px 10% 0 0;
-    line-height: 20px;
+    margin: 10% 10% 0 0;
+    line-height: 28px;
 }
 
 #why-left-text p {
@@ -156,7 +160,7 @@ h2 {
 }
 
 #why-image>img {
-    width: 420px;
+    width: 560px;
 }
 
 /* open house section */
@@ -459,6 +463,11 @@ footer a {
 /* for laptops */
 @media screen and (max-width: 1500px) {
 
+    .section-white {
+        height: 1400px;
+    }
+
+    /* home cover text */
     #landing-cover-text {
         width: 640px;
         height: 80px;
@@ -472,6 +481,39 @@ footer a {
         line-height: 80px;
         padding: 0;
     }
+
+    /* why section */
+    #why-left {
+        width: 100%;
+    }
+
+    #why-left-text {
+        text-align: center;
+        float: right;
+        clear: both;
+        margin: 10% 20% 0 20%;
+        line-height: 28px;
+    }
+
+    #why-right {
+        width: 100%;
+    }
+
+    #why-image {
+        text-align: center;
+        clear: both;
+        padding: 0 0;
+        margin: 4% 15%;
+    }
+
+    #why-image {
+        padding: 0;
+        margin-bottom: 4%;
+    }
+
+    #why-image>img {
+        width: 520px;
+    }
 }
 
 /* for large sized tablets */
@@ -483,8 +525,7 @@ footer a {
     }
 
     .section-white {
-        height: 700px;
-        width: 100%;
+        height: 1400px;
     }
 
     .section-home-landing {
@@ -508,24 +549,22 @@ footer a {
         background-size: 100%;
     }
 
+    /* why section */
+    #why-image>img {
+        width: 500px;
+    }
+
     /* form */
     .form-section-container {
         height: 700px;
         width: 100%;
     }
-
-    /*  */
 }
 
 /* for large and medium tablets */
 @media screen and (max-width: 1050px) {
 
     .section-container {
-        height: 900px;
-        width: 100%;
-    }
-
-    .section-white {
         height: 900px;
         width: 100%;
     }
@@ -549,10 +588,18 @@ footer a {
     #landing-cover-text h2 {
         font-size: 160%;
     }
+
+    /* why section */
+    #why-image>img {
+        width: 480px;
+    }
 }
 
 /* for medium sized tablets */
 @media screen and (max-width: 950px) {
+    body p {
+        font-size: 110%;
+    }
 
     /* nav */
     #page-nav {
@@ -566,7 +613,7 @@ footer a {
         line-height: 60px;
     }
 
-    /* cover text */
+    /* home cover text */
     #landing-cover-text {
         bottom: 20%;
         right: 17%;
@@ -574,6 +621,15 @@ footer a {
 
     #landing-cover-text h2 {
         font-size: 140%;
+    }
+
+    /* why section */
+    #why-left-text {
+        line-height: 26px;
+    }
+
+    #why-image>img {
+        width: 460px;
     }
 }
 
@@ -615,10 +671,23 @@ footer a {
         font-size: 110%;
     }
 
+    /* why section */
+    #why-left-text {
+        width: 80%;
+        margin: 10% 10% 0 10%;
+    }
+
+    #why-image {
+        margin: 4% 10%;
+    }
 }
 
 /* for large mobiles */
 @media screen and (max-width: 610px) {
+    body p {
+        font-size: 100%;
+    }
+
     .section-home-landing {
         height: 600px;
         width: 100%;
@@ -630,7 +699,7 @@ footer a {
         letter-spacing: 2px;
     }
 
-    /* cover text */
+    /* home cover text */
 
     #landing-cover-text {
         width: 80%;
@@ -641,6 +710,20 @@ footer a {
 
     #landing-cover-text h2 {
         font-size: 110%;
+    }
+
+    /* why section */
+    #why-left-text {
+        width: 80%;
+        margin: 10% 10% 0 10%;
+    }
+
+    #why-image {
+        margin: 4% 5%;
+    }
+
+    #why-image>img {
+        width: 440px;
     }
 }
 
@@ -653,12 +736,8 @@ footer a {
     }
 
     /* nav */
-    #page-nav {
-        font-size: 110%;
-    }
-
     #page-nav li {
-        margin-right: 20px;
+        margin: 0 8px;
     }
 
     /* landing image and cover text */
@@ -676,6 +755,11 @@ footer a {
     #landing-cover-text h2 {
         font-size: 142%;
     }
+
+    /* why section */
+    #why-image>img {
+        width: 420px;
+    }
 }
 
 /* for small mobiles */
@@ -683,11 +767,13 @@ footer a {
 
     /* nav */
     #page-nav {
-        font-size: 100%;
+        font-size: 140%;
+        letter-spacing: 4px;
     }
 
     #page-nav li {
-        margin-right: 15px;
+        margin: 0 24px;
+        line-height: 38px;
     }
 
     /* landing image and cover text */
@@ -702,5 +788,14 @@ footer a {
     #landing-cover-text h2 {
         font-size: 142%;
         line-height: 60px;
+    }
+
+    /* why section */
+    #why-image {
+        margin: 0;
+    }
+
+    #why-image>img {
+        width: 100%;
     }
 }
