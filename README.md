@@ -239,13 +239,17 @@ Gallery
 The site have been tested and supported on following browsers,
 
 <br>
+
 On desktop,
+
 - Safari
-- Chrome
-- Modzilla Firefox
+- Chrome 
+- Mozilla Firefox
 - Microsoft Edge
 
-### 8.1 Code validation
+---
+
+## 9. Code validation
 
 <br>
 
@@ -267,12 +271,34 @@ W3C jigsaw CSS Validator results,
 
 <img src="assets/readme-images/css-validation.jpg" alt="Image of w3c jigsaw css validator results.">
 
-### 8.2 Fixed bugs
+---
+
+## 10. Fixed bugs
+
+<br>
 
 - The 'Sing up' and 'Welcome' pages didn't want to center on screens with 510px width or smaller. I fixed this by adjusting padding value in a media querie. 
 
+---
 
-9. Deployment
-   9.1 via gitpod
-   9.2 via github pages
-10. credits
+## 11. Deployment
+
+<br>
+
+The deployment was made through GitHub pages and the process was as followes,
+
+<br>
+
+- Open GitHub repository and open the settings tab
+- From settings navigate to pages tab
+- Under branch, select the main branch through the dropdown menu
+- Once selected and saved, the page will be refreshed (in case of nothing happening wait for a couple muinites and refresh page manually)
+- The refreshed page will show a detailed ribbon containing the website link and indicate a successful deployment.
+
+<br>
+
+<img src="assets/readme-images/pages.jpg" alt="Image of pages section on GitHub">
+
+---
+
+## 12. Credits
