@@ -4,6 +4,10 @@
 
 Karate Koi is a site for the karate club based in Stockholm, Sweden. The site is targeted towards those who want to start training karate in the club. Whether it is a beginner or someone with prior training, child or adult. The website is also targeted to those are just intrested in learning a bit about the sport. Katare Koi is useful for those who are intrested in learning about or joining the sport. As well as for those who have joined to see the scheduled training sessions.
 
+<br>
+
+<img src="assets/readme-images/responsive.jpg" alt="Image showing site responsiveness.">
+
 [LIVE SITE](https://oogieorange.github.io/project-1-karate-koi/)
 
 ---
@@ -230,7 +234,7 @@ Gallery
 
 <br>
 
-The site have been tested on following browsers,
+The site have been tested and supported on following browsers,
 
 <br>
 On desktop,
@@ -238,11 +242,6 @@ On desktop,
 - Chrome
 - Modzilla Firefox
 - Microsoft Edge
-
-<br>
-On mobile,
-- Safari
-- chrome
 
 ### 8.1 Code validation
 
