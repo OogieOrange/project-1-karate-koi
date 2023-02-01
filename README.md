@@ -10,7 +10,7 @@ Karate Koi is a site for the karate club based in Stockholm, Sweden. The site is
 
 <br>
 
-Why do you want to visit the site and what do you expevt from it?
+Why do you want to visit the site and what do you expect from it?
 
 <br>
 

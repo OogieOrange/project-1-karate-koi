@@ -345,7 +345,7 @@ footer a {
 
 #container-border {
     width: 600px;
-    height: 80%;
+    height: 68%;
     margin: 0 auto;
     margin-top: 60px;
     border: 1px solid #f3f3f3;
@@ -353,7 +353,7 @@ footer a {
     color: rgba(243, 243, 243, 0.8);
 }
 
-#form-container {
+.form-container {
     width: 80%;
     height: 80%;
     margin: 0 auto;
@@ -362,13 +362,13 @@ footer a {
     border-radius: 4px;
 }
 
-#form-container h2 {
+.form-container h2 {
     color: #f3f3f3;
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
-#form-container p {
+.form-container p {
     text-transform: uppercase;
     color: #f3f3f3;
     margin-top: 10px;
@@ -424,22 +424,7 @@ footer a {
 
 /* welcome page */
 
-#welcome-container {
-    width: 80%;
-    height: 80%;
-    margin: 0 auto;
-    margin-top: 48px;
-    background-color: rgba(29, 120, 116, 0.7);
-    border-radius: 4px;
-}
-
-#welcome-container h2 {
-    color: #f3f3f3;
-    padding-top: 56px;
-    /* padding-bottom: 10px; */
-}
-
-#welcome-container p {
+.welcome-container p {
     width: 80%;
     padding-top: 20px;
     margin: 0 auto;
@@ -580,12 +565,6 @@ footer a {
     /* why section */
     #why-image>img {
         width: 500px;
-    }
-
-    /* form */
-    .form-section-container {
-        height: 700px;
-        width: 100%;
     }
 
     /* video section */
@@ -820,6 +799,19 @@ footer a {
     #times-container {
         margin: 2% 10%;
     }
+
+    /* form */
+    #container-border {
+        width: 100%;
+        height: 60%;
+        padding: 20px 0;
+        margin-top: 20%;
+
+        border: 0;
+        border-radius: 0;
+        border-bottom: 1px solid #f3f3f3;
+        border-top: 1px solid #f3f3f3;
+    }
 }
 
 /* for large mobiles */
@@ -920,6 +912,28 @@ footer a {
     #times-container {
         margin: 20% 0;
     }
+
+    /* form */
+    .form-container {
+        width: 100%;
+        padding: 16px;
+        border-radius: 0;
+    }
+
+    #container-border {
+        height: 80%;
+        margin-top: 14%;
+    }
+
+    .input {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding: 4px;
+    }
+
+    .radio input {
+        margin: 20px 0;
+    }
 }
 
 /* for small mobiles */
@@ -991,6 +1005,7 @@ footer a {
         font-size: 80%;
         margin: 28% 0;
     }
+
 }
 
 /* for extra small mobiles */
@@ -1019,4 +1034,8 @@ footer a {
         padding: 40px 2px;
     }
 
+    /* form */
+    .radio input {
+        margin: 20px 8%;
+    }
 }
