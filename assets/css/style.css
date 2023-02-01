@@ -259,7 +259,7 @@ footer a {
     margin: 0 auto;
     margin-top: 26%;
 
-    background-color: #1d7874;
+    background-color: rgba(29, 120, 116, 0.8);
 }
 
 .about-cover-text h2 {
@@ -721,15 +721,11 @@ footer a {
     /* about coover text */
     .about-cover-text {
         width: 100%;
-        font-size: 220%;
+        font-size: 180%;
         line-height: 60px;
         font-family: Montserrat, sans-serif;
 
-        padding: 20px 5%;
-        margin: 0 auto;
-        margin-top: 38%;
-
-        background-color: #1d7874;
+        padding: 18px 2%;
     }
 }
 
