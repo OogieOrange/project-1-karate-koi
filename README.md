@@ -331,6 +331,3 @@ The deployment was made through GitHub pages and the process was as followes,
 - The 'Love Running' project that helped me with the footer, meta keywords and some compositional ideés
 - [ActiveCambrige](https://www.youtube.com/@ActiveCambridge) For their video '5 Things You Need to Know About Karate'
 
-
-
-(https://www.w3schools.com/)
