@@ -128,7 +128,7 @@ Schedule page
 
 <br>
 
-Sign up page
+Sign up and Welcome page
 
 - This page will include a short text and a sign up form.
 
@@ -200,6 +200,8 @@ On mobile,
   ### 8.1 Code validation
 
   ### 8.2 Fixed bugs
+
+  - 
 
   ### 8.3 Remaining bugs
 
