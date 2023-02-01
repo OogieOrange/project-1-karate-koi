@@ -6,9 +6,11 @@ Karate Koi is a site for the karate club based in Stockholm, Sweden. The site is
 
 <br>
 
-<img src="assets/readme-images/responsive.jpg" alt="Image showing site responsiveness.">
+[LIVE SITE HERE](https://oogieorange.github.io/project-1-karate-koi/)
 
-[LIVE SITE](https://oogieorange.github.io/project-1-karate-koi/)
+<br>
+
+<img src="assets/readme-images/responsive.jpg" alt="Image showing site responsiveness.">
 
 ---
 
