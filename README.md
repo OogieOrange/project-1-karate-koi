@@ -2,7 +2,7 @@
 
 ## 1. Purpose of the project
 
-Karate Koi is a site for the karate club based in Stockholm, Sweden. The site is targeted towards those who want to start training karate in the club. Whether it is a beginner or someone with prior training, child or adult. The website is also targeted to those are just intrested in learning a bit about the sport. Katare Koi is useful for those who are intrested in learning about or joining the sport. As well as for those who have joined to see the scheduled training sessions.
+Karate Koi is a site for the karate club based in Stockholm, Sweden. The site is targeted towards those who want to start training karate in the club. Whether it is a beginner or someone with prior training, child or adult. The website is also targeted to those who are just intrested in learning a bit about the sport. Katare Koi is useful for those who are intrested in learning about or joining the sport. As well as for those who have joined to see the scheduled training sessions.
 
 <br>
 
@@ -23,7 +23,7 @@ Why does the user want to visit the site and what do they expect from it?
 <br>
 
 - The user wants to be able to get information about the club.
-- The user wants to see if karate is something for me and get a basic understanding of the sport.
+- The user wants to see if karate is something for them and get a basic understanding of the sport.
 - The user wants to see where the club is located, how the dojo looks and how to contact them.
 - The user wants to see when the training is.
 - The user wants to sign up for training with the club.
@@ -60,7 +60,7 @@ Landing page image
 
 - The landing page provides a photograph and text overlay.
 
-- The image introduces the main focus of Karate Koi while the cover text explains in precice words why you should try karate, and may act as an intrigue to read more.
+- The image introduces the main focus of Karate Koi while the cover text explains in precise words why you should try karate, and may act as an intrigue to read more.
 
 <br>
 
@@ -70,7 +70,7 @@ Landing page image
 
 Why karate section
 
-- This section will present the benefits of doing karate, as well as the benefits and reasonswhy you should join the Karate Koi club.
+- This section will present the benefits of doing karate, as well as the benefits and reasons why you should join the Karate Koi club.
 
 - The feature will spark intruige in the sport, and motivate the user towards choosing to start using karate as their form of exercise. As well as welcome them to sign up and join training with the club.
 
@@ -84,7 +84,7 @@ Open house section
 
 - The open house section will present general information about, times and address for the clubs open house.
 
-- The map will introduce the dojo address while inviting the user to look up its location. While the ideé of an open house will motivate the user to visit before joining, to see if it's for them.
+- The map will introduce the dojo address, and inviting the user to look up its location. While the ideé of an open house will motivate the user to visit before joining, to see if it's for them.
 
 <br>
 
@@ -94,9 +94,9 @@ Open house section
 
 Footer
 
-- The footer will include social links in the form of icons, that will open in a seperate tab. As well as contact information in the form of an email address and a phone number. And will be identical and precent. on all pages on the website for easy access.
+- The footer will include social links in the form of icons, that will open in a seperate tab. As well as contact information in the form of an email address and a phone number. And will be identical and precent across all pages on the website for easy access.
 
-- The footer, with the information and links provided, will encourage the user to keep being connected with the club. Whether it be. through social media or a question sent to the club.
+- The footer, with the information and links provided, will encourage the user to keep being connected with the club. Whether it be through social media or a question sent to the club.
 
 <br>
 
@@ -132,7 +132,7 @@ Karate video
 
 - The karate video section will provide a video introducing what makes karate karate.
 
-- The video feature will introduce more information about the sport to the user, much like the previous feature. The intention with this is to make sure the user gets a fundimental understanding of what karate is before starting to train with the club. This will ensure that they do not join. the club to quit after a while as it was not what they expected.
+- The video feature will introduce more information about the sport to the user, much like the previous feature. The intention with this is to make sure the user gets a fundimental understanding of what karate is before starting to train with the club. This will ensure that they do not join the club to quit after a while as it was not what they expected.
 
 <br>
 
@@ -156,7 +156,7 @@ Schedule page
 
 - The schedule page features a photograph of the dojo and a schedule for training times. And is followed by a repeat of the open house section.
 
-- The schedule page photograph introduces the dojoas the place the information is regarding. While the schedule feature is for both new and old users to keep up with the training times of the club. The repeat open house section is intended to further welcome and remind users to visit the dojo.
+- The schedule page photograph introduces the dojo as the place the information is regarding. While the schedule feature is for both new and old users to keep up with the training times of the club. The repeat open house section is intended to further welcome and remind users to visit the dojo.
 
 <br>
 
@@ -206,7 +206,7 @@ Gallery
 
 - The Karate Koi website will feature a color scheme consisting of black pearl, elm and white smoke. For a clean, calm and simple look.
 
-- The selected typografy consists of Montserrat and Quicksand, with a backup of Sans-seif. The focus is a clean design and a clear readability.
+- The selected typografy consists of Montserrat and Quicksand, with a backup of Sans-seif. The focus is a clean mordern design that provides clear readability.
 
 ---
 
@@ -237,11 +237,12 @@ Gallery
 
 <br>
 
-The site have been tested and supported on following browsers,
+- All links and buttons available through the website have been tested and act as they are supposed to.
+- The website have been tested to respond and adapt to screen size.
 
 <br>
 
-On desktop,
+The site have been tested and is supported on following browsers (on desktop),
 
 - Safari
 - Chrome 
